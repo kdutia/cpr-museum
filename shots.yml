@@ -8,6 +8,7 @@
 - url: https://app.climatepolicyradar.org/
   output: home.png
   height: 1000
+  wait: 3000
   javascript:  |
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
@@ -27,9 +28,10 @@
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
     ).forEach(el => el.style.display = 'none')
-- url: https://climate-laws.org/
+- url: https://climate-laws.org/search
   output: cclw_browse.png
   height: 1000
+  wait: 3000
   javascript:  |
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
