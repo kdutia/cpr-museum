@@ -1,6 +1,7 @@
 - url: https://app.climatepolicyradar.org/search
   output: browse.png
   height: 1600
+  wait: 3000
   javascript:  |
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
