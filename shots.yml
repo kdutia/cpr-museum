@@ -1,13 +1,13 @@
 - url: https://app.climatepolicyradar.org/search
   output: browse.png
-  height: 1000
+  height: 1600
   javascript:  |
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
     ).forEach(el => el.style.display = 'none')
 - url: https://app.climatepolicyradar.org/
   output: home.png
-  height: 1000
+  height: 1600
   wait: 3000
   javascript:  |
     document.querySelectorAll(
@@ -15,14 +15,14 @@
     ).forEach(el => el.style.display = 'none')
 - url: https://app.climatepolicyradar.org/document/climate-change-act-2008_47b4?q=transport
   output: family.png
-  height: 1000
+  height: 1600
   javascript:  |
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
     ).forEach(el => el.style.display = 'none')
 - url: https://app.climatepolicyradar.org/documents/the-status-of-wind-in-africa_9b6f?q=locations&sf=date&so=desc&l=kenya&id=the-status-of-wind-in-africa_9b6f
   output: document.png
-  height: 1000
+  height: 1600
   wait: 10000
   javascript:  |
     document.querySelectorAll(
@@ -30,7 +30,7 @@
     ).forEach(el => el.style.display = 'none')
 - url: https://climate-laws.org/search
   output: cclw_browse.png
-  height: 1000
+  height: 1600
   wait: 3000
   javascript:  |
     document.querySelectorAll(
