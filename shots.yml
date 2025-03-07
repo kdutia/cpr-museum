@@ -1,20 +1,27 @@
 - url: https://app.climatepolicyradar.org/search
   output: browse.png
-  height: 800
+  height: 1000
   javascript:  |
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
     ).forEach(el => el.style.display = 'none')
 - url: https://app.climatepolicyradar.org/
   output: home.png
-  height: 800
+  height: 1000
+  javascript:  |
+    document.querySelectorAll(
+      '[data-cy="cookie-consent"]'
+    ).forEach(el => el.style.display = 'none')
+- url: https://app.climatepolicyradar.org/document/climate-change-act-2008_47b4?q=transport
+  output: family.png
+  height: 1000
   javascript:  |
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
     ).forEach(el => el.style.display = 'none')
 - url: https://climate-laws.org/
   output: cclw_browse.png
-  height: 800
+  height: 1000
   javascript:  |
     document.querySelectorAll(
       '[data-cy="cookie-consent"]'
