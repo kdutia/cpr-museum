@@ -30,7 +30,7 @@ jobs:
       uses: actions/cache@v4
       with:
         path: ~/.cache/ms-playwright/
-        key: ${{ runner.os }}-browsers
+        key: ${{ runner.os }}-browsers-${{ hashFiles('requirements.txt') }}
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
